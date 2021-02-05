@@ -1,38 +1,110 @@
-.App {
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: #ededed;
+  display: grid;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  width: 300px;
+}
+h1 {
+  font-size: 20px;
+  margin: 0 0 1rem 0;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  font-weight: 900;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* padding css */
+.padding {
+  padding: 16px;
+}
+
+/* padding right */
+.paddingr {
+  padding-right: 16px;
+}
+/* padding left */
+.paddingl {
+  padding-left: 16px;
+}
+/* padding bottom */
+.pb {
+  padding-bottom: 16px;
+}
+/* padding top */
+.pt {
+  padding-top: 16px;
+}
+
+/* margin css */
+.margin {
+  margin: 16px;
+}
+
+/* margin css */
+.margint {
+  margin-top: 16px;
+}
+
+/* margin css */
+.marginb {
+  margin-bottom: 16px;
+}
+
+/* button css */
+
+.btn {
   color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+/* .btn:hover {
+  opacity: 0.8;
+} */
+
+.btn-success {
+  background-color: #219461;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  display: inline-block;
+  color: #000000;
+}
+
+/* error msg */
+
+.errors {
+  color: red;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }

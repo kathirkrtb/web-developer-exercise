@@ -1,0 +1,7 @@
+.box {
+  min-height: 550px;
+  /* min-width: 500px; */
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 3px solid #219461;
+}
